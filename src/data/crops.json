@@ -1,0 +1,141 @@
+{
+    "primavera": {
+        "cenoura": {
+            "type": "vegetal",
+            "rank": "F",
+            "days_to_harvest": 7,
+            "regrow": 0,
+            "seed_price": 35,
+            "sell_price": 78
+        },
+        "couve flor": {
+            "type": "vegetal",
+            "rank": "F",
+            "days_to_harvest": 10,
+            "regrow": 0,
+            "seed_price": 70,
+            "sell_price": 175            
+        },
+        "acelga": {
+            "type": "vegetal",
+            "rank": "D",
+            "days_to_harvest": 6,
+            "regrow": 0,
+            "seed_price": 50,
+            "sell_price": 111            
+        },
+        "pepino": {
+            "type": "vegetal",
+            "rank": "F",
+            "days_to_harvest": 9,
+            "regrow": 3,
+            "seed_price": 25,
+            "sell_price": 41            
+        },
+        "margarida": {
+            "type": "flor",
+            "rank": "F",
+            "days_to_harvest": 4,
+            "regrow": 0,
+            "seed_price": 15,
+            "sell_price": 40
+        },
+        "alface": {
+            "type": "vegetal",
+            "rank": "D",
+            "days_to_harvest": 5,
+            "regrow": 0,
+            "seed_price": 20,
+            "sell_price": 47            
+        },
+        "ervilha": {
+            "type": "vegetal",
+            "rank": "D",
+            "days_to_harvest": 11,
+            "regrow": 4,
+            "seed_price": 45,
+            "sell_price": 59            
+        },
+        "peonia": {
+            "type": "flor",
+            "rank": "F",
+            "days_to_harvest": 4,
+            "regrow": 0,
+            "seed_price": 20,
+            "sell_price": 42            
+        },
+        "papoula": {
+            "type": "flor",
+            "rank": "E",
+            "days_to_harvest": 7,
+            "regrow": 0,
+            "seed_price": 30,
+            "sell_price": 82            
+        },
+        "batata": {
+            "type": "vegetal",
+            "rank": "F",
+            "days_to_harvest": 10,
+            "regrow": 0,
+            "seed_price": 25,
+            "sell_price": 75            
+        },
+        "rabanete": {
+            "type": "vegetal",
+            "rank": "E",
+            "days_to_harvest": 6,
+            "regrow": 0,
+            "seed_price": 60,
+            "sell_price": 119            
+        },
+        "gota de neve": {
+            "type": "flor",
+            "rank": "C",
+            "days_to_harvest": 12,
+            "regrow": 0,
+            "seed_price": 45,
+            "sell_price": 125            
+        },
+        "soja": {
+            "type": "grão",
+            "rank": "E",
+            "days_to_harvest": 8,
+            "regrow": 4,
+            "seed_price": 20,
+            "sell_price": 19            
+        },
+        "morango": {
+            "type": "fruta",
+            "rank": "D",
+            "days_to_harvest": 10,
+            "regrow": 4,
+            "seed_price": 145,
+            "sell_price": 102            
+        },
+        "cana de acucar": {
+            "type": "vegetal",
+            "rank": "D",
+            "days_to_harvest": 5,
+            "regrow": 1,
+            "seed_price": 50,
+            "sell_price": 23            
+        },
+        "nabo": {
+            "type": "vegetal",
+            "rank": "F",
+            "days_to_harvest": 4,
+            "regrow": 0,
+            "seed_price": 15,
+            "sell_price": 40            
+        }
+    },
+    "verao": {
+
+    },
+    "outono": {
+
+    },
+    "inverno": {
+
+    }
+}

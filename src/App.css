@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+.calendarWrapper {
+  max-width: 80%;
+  width: 80%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 30px;
+}
+.season_picker {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.season_picker .tab {
+  font-size: 18px;
+  padding: 20px;
+  background-color: aqua;
+  min-width: 20%;
+  border-top: 4px solid red;
+  border-left: 4px solid red;
+  border-right: 4px solid red;
+}
+.season_picker .tab.active {
+  padding: 20px;
+  background-color: #f0f;
+  min-width: 20%;
+  border-top: 4px solid red;
+  border-left: 4px solid red;
+  border-right: 4px solid red;
+}
+.season_picker .tab .season_name {
+  float: left;
+}
+.season_picker .tab .profit {
+  float: right;
+  font-size: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.calendar {
+  background-color: #FBEBC2;
+  border: 3px solid #5E360C;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calendar .day_names .day_name {
+  width: 14.28571429%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 22px;
+  padding: 4px;
+}
+.calendar .days_container .day {
+  width: 14.28571429%;
+  height: 160px;
+  float: left;
+  box-sizing: border-box;
+  padding: 4px;
+  position: relative;
+  border-right: 2px solid #5E360C;
+  border-top: 2px solid #5E360C;
+  background-color: #DDD1B2;
+  cursor: pointer;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+
+.calendar .days_container .day .people_birthday {
+  font-size: 14px;
+}
+
+.crop_modal {
+  position: fixed;
+  top: 0; /* Adjust the top margin as needed */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align to the top */
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  width: 75%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust box-shadow as needed */
+  position: relative;
+  margin-top: 10px; /* Add margin from the top of the modal */
+}
+.form-crop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-control label {
+  font-weight: 700;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 0.5rem;  
+}
+.panel h6 {
+  margin: 0;
+  font-size: 22px;
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
 }
